@@ -1,4 +1,22 @@
 {
   "schema": 1,
-  "firmware": []
+  "firmware": [
+    {
+      "series": "sw-shallow-anchor",
+      "product": 2,
+      "target": "ch582",
+      "hardware": "1.0",
+      "version": "1.0.0",
+      "build": 1,
+      "channel": "test",
+      "size": 194172,
+      "sha256": "f6cefda30cb5cc19f2293451b42212ef2891b5bbbcc86a20f18e3f55568e12f0",
+      "url": "https://github.com/jiafic-zh/seawalker-firmware-releases/releases/download/sw-shallow-anchor-v1.0.0-b1/sw-shallow-anchor_hw1.0_v1.0.0-b1.bin",
+      "published": "2026-11-10",
+      "notes": {
+        "zh": "首个支持蓝牙在线升级的版本（测试版）。",
+        "en": "First version with Bluetooth online update (test build)."
+      }
+    }
+  ]
 }
