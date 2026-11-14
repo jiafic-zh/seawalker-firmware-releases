@@ -17,6 +17,27 @@
         "zh": "首个支持蓝牙在线升级的版本（测试版）。",
         "en": "First version with Bluetooth online update (test build)."
       }
+    },
+    {
+      "series": "sw-smart-remote",
+      "product": 3,
+      "format": "sifli-dfu",
+      "hardware": "0x00520001",
+      "version": "10018",
+      "build": 0,
+      "channel": "test",
+      "size": 1224770,
+      "sha256": "595b085d392f3761d0a1f3f3fb493f612fb71256249faf6cb65f2e1247cd5a34",
+      "url": "https://github.com/marivo-tech/marivo-firmware-releases/releases/download/sw-smart-remote-v10018-b0/sw-smart-remote_v10018.zip",
+      "published": "2026-11-14",
+      "notes": {
+        "zh": "• 设备信息页显示设备名称（升级时的蓝牙名称 SW-RM-XXXX）、硬件版本和软件版本\n• 不再显示公司",
+        "en": "• Device info shows the device name (the Bluetooth name used for updates, SW-RM-XXXX), hardware version and software version\n• Company is no longer shown"
+      },
+      "caution": {
+        "zh": "测试版，只用于验证 App 升级流程。",
+        "en": "Test build, only for verifying updates from the app."
+      }
     }
   ]
 }
